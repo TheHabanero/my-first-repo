@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Contact</title>
+   <link href="https://fonts.googleapis.com/css?family=Orbitron"
+   rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      header {
+        background:aqua;
+        font-family:'Orbitron', sans-serif,arial,helvetica;
+        text-align:center;
+        padding:2px 20px;
+      }
+      h1 {
+        font-family:'Orbitron', sans-serif, arial, helvetica;
+        text-align:center;
+        color:blue
+      }
+      footer {
+        background:aqua;
+        text-align:center
+      }
+      ul {
+        list-style-type:none;
+      }
+      li a {
+        text-decoration:none
+      }
+      li {
+        display:inline;
+        padding:2px 20px
+      }
+      li a:hover {
+        background:yellow;
+        color:black
+      }
+      #pages {
+        text-decoration:none
+      }
+      .email {
+        text-decoration:none;
+        font-family:'Orbitron', sans-serif, arial, helvetica;
+      }
+      .email:hover {
+        background:black;
+        color:white
+      }
+      td a {
+        text-decoration:none;
+        color:white
+      }
+      td a:hover {
+        background:lime;
+        color:black
+      }
+      table {
+        margin-left:auto;
+        margin-right:auto;
+        border:solid 5px;
+        background:#3661e2;
+      }
+      form {
+        position:absolute;
+        bottom:0;
+        left:0;
+      }
+    </style>
+    <header>
+      <ul>
+        <li><a href="index.html" id="pages">HOME</a></li>
+        <li><a href="portfolio.html" id="pages">PORTFOLIO</a></li>
+      </ul>
+    </header>
+    <h1>Contact</h1>
+    <form action="https://formspree.io/brian@wheelerfamily.com"
+    method="post">
+      <input type="text" name="name">
+      <label for="name">Your Name</label>
+      <input type="email" name="replyto">
+      <label for="replyto">Your Email</label>
+      <input type="submit" value="Send">
+    </form>
+    <a href="mailto:brian@wheelerfamily.com" class="email">Email</a>
+    <table>
+      <tr>
+        <td>
+          <a href="https://www.facebook.com/brian.wheeler.9465">facebook</a>
+        </td>
+      </tr>
+    </table>
+    <footer>
+
+    </footer>
+  </body>
+</html>
